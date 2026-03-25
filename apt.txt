@@ -1,0 +1,11 @@
+# playwright deps https://jira-secure.berkeley.edu/browse/DH-305
+strace
+
+htop
+nano
+tmux
+
+dbus-x11
+xorg
+xubuntu-icon-theme
+xfce4
