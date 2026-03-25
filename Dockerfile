@@ -24,6 +24,8 @@ RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends $(grep -v '^#' /tmp/apt.txt) && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/apt.txt
 
+RUN mkdir -p ${JULIA_DIR} && chown ${NB_USER}:${NB_USER} ${JULIA_DIR}
+
 # ------------------------------------------------------------
 # Conda / Python packages
 # ------------------------------------------------------------
