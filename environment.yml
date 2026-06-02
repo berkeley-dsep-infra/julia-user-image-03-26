@@ -7,7 +7,6 @@ channels:
 dependencies:
   # other packages
   - requests==2.32.3
-  - syncthing==1.29.2
   - traitlets==5.14.3
 
   # Required for issue #3057
@@ -15,8 +14,3 @@ dependencies:
 
   # For https://github.com/berkeley-dsep-infra/datahub/issues/3079
   - websockify==0.12.0
-
-  - pip:
-    # for notebook exporting
-    - nb2pdf==0.6.2
-    - nbpdfexport==0.2.1
