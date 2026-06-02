@@ -1,5 +1,5 @@
 
-FROM us-central1-docker.pkg.dev/ucb-datahub-2018/base-images-repo/base-python-image:bb2e6c6
+FROM us-central1-docker.pkg.dev/ucb-datahub-2018/base-images-repo/base-python-image:bbe5fda
 
 # -------------------------------
 # Environment for R
